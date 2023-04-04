@@ -162,7 +162,7 @@ public class CreateThumbnailModule extends ReactContextBaseJavaModule {
             File noMedia = new File(path, ".nomedia");
             noMedia.createNewFile();
         } catch (IOException e) {
-            e.printStackTrace();
+//             e.printStackTrace();
         }
 
         return dir;
